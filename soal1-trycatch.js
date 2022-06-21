@@ -15,7 +15,7 @@ const cekHariKerja = (day)=>{
     })
 }
 
-result = async() =>{
+const result = async() =>{
     try {
         let data = await cekHariKerja('senin')
         console.log(`${data} adalah hari kerja`)
